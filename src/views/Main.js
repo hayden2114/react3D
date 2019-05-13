@@ -12,9 +12,9 @@ export default class Main extends Component {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                Welcome to React3D!
+                Welcome to the React3D sandbox!
                 </p>
-                <Link to="/inside">Come inside</Link>
+                <Link className="App-link" to="/threeD">Come inside</Link>
             </header>
         </div>
     )

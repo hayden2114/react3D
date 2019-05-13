@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import Main from "./views/Main";
-import Home from "./views/Home";
+import ThreeD from "./views/ThreeD";
 
 import * as serviceWorker from './serviceWorker';
 import './styles/index.css';
@@ -13,7 +13,7 @@ function AppRoutes() {
         <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Main} />
-            <Route exact path="/inside" component={Home} />
+            <Route exact path="/threeD" component={ThreeD} />
             <Route component={() => (<Redirect to='/' />)} /> 
         </Switch>
         </BrowserRouter>
